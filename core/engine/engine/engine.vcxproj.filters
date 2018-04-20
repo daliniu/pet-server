@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{8f0bef9d-0288-46c2-a8f1-4c5959d262b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\db">
+      <UniqueIdentifier>{68e03339-9b07-4275-8606-efed45d8f418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\main">
+      <UniqueIdentifier>{5eec3047-e45b-4f69-971a-ea7810284a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mongo">
+      <UniqueIdentifier>{07b16aa5-bba5-4b14-acfb-cc1ef8fcd425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libevent">
+      <UniqueIdentifier>{477cface-8942-45e9-9589-68be2575428d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lua">
+      <UniqueIdentifier>{cfa74a85-1e95-4b41-83e4-d5f84defc684}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\common\LogEx.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\LogManager.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\LuaConfigReader.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\LuaUtils.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\md5.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Msg.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\PackProto.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Thread.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Utils.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\db\LuaDBUtils.cpp">
+      <Filter>Source Files\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\db\LuaMongoDB.cpp">
+      <Filter>Source Files\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\db\LuaMongoDBCursor.cpp">
+      <Filter>Source Files\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\db\MongoDBInterface.cpp">
+      <Filter>Source Files\db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Globals.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HttpThread.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IOThread.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Main.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Monitor.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MsgEx.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DBThread.cpp">
+      <Filter>Source Files\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\buffer.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\buffer_iocp.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\bufferevent_async.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\event.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\event_iocp.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\evmap.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\evthread.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\http.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\listener.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\log.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\win32select.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\evutil.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\bufferevent.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\bufferevent_ratelim.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\signal.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\evutil_rand.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\bufferevent_sock.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\libeventSrc\strlcpy.c">
+      <Filter>Source Files\libevent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\Assertx.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lapi.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lauxlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lbaselib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lbitlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lcode.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lcorolib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lctype.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ldblib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ldebug.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ldo.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ldump.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lfunc.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lgc.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\linit.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\liolib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\llex.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lmathlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lmem.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\loadlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lobject.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lopcodes.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\loslib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lparser.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lstate.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lstring.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lstrlib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ltable.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ltablib.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\ltm.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lundump.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lvm.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\lua\lzio.c">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\LogEx.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\LogManager.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\LuaConfigReader.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\LuaUtils.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Lunar.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\md5.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Msg.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\MsgManager.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ObjPool.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\PacketID.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\PackProto.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\PkLimit.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\RoundQueue.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Thread.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Type.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Utils.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\db\LuaDBUtils.h">
+      <Filter>Source Files\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\db\LuaMongoDB.h">
+      <Filter>Source Files\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\db\LuaMongoDBCursor.h">
+      <Filter>Source Files\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\db\MongoDBInterface.h">
+      <Filter>Source Files\db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Config.h">
+      <Filter>Source Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Globals.h">
+      <Filter>Source Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HttpThread.h">
+      <Filter>Source Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IOThread.h">
+      <Filter>Source Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Monitor.h">
+      <Filter>Source Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\MsgEx.h">
+      <Filter>Source Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mongodb_c_driver\bcon.h">
+      <Filter>Source Files\mongo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mongodb_c_driver\bson.h">
+      <Filter>Source Files\mongo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mongodb_c_driver\encoding.h">
+      <Filter>Source Files\mongo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mongodb_c_driver\env.h">
+      <Filter>Source Files\mongo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mongodb_c_driver\gridfs.h">
+      <Filter>Source Files\mongo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mongodb_c_driver\md5.h">
+      <Filter>Source Files\mongo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\mongodb_c_driver\mongo.h">
+      <Filter>Source Files\mongo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DBThread.h">
+      <Filter>Source Files\main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\buffer.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\buffer_compat.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\bufferevent.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\bufferevent_compat.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\bufferevent_ssl.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\bufferevent_struct.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\dns.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\dns_compat.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\dns_struct.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\event.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\event_compat.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\event_struct.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\event-config.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\event-config_linux.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\http.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\http_compat.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\http_struct.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\keyvalq_struct.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\listener.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\rpc.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\rpc_compat.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\rpc_struct.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\tag.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\tag_compat.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\thread.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libeventSrc\include\event2\util.h">
+      <Filter>Source Files\libevent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\Assertx.h">
+      <Filter>Source Files\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\common\Msg.inl">
+      <Filter>Source Files\common</Filter>
+    </None>
+  </ItemGroup>
+</Project>

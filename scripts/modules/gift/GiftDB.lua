@@ -1,0 +1,14 @@
+module(...,package.seeall)
+
+function new()
+	local o = {
+	}
+	setmetatable(o,{__index = _M})
+	return o
+end
+
+function init(heroDB)
+	if not heroDB.gift then
+		heroDB.gift = new()
+	end
+end

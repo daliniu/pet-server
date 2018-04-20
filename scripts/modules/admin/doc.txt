@@ -1,0 +1,55 @@
+管理接口文档
+============
+
+URL接口的格式: http://192.168.26.8:10000/admin?q=online
+所有的参数（除了ticket）按字典序再加上登录key进行md5，与ticket参数比较
+hostname, port跟服务器部署和配置有关
+?以后是逻辑参数
+q是固定参数，表示请求的方法
+online就是具体的请求
+
+具体接口说明
+
+1) q=online       
+    请求当前在线人数
+2) q=kickall
+    踢所有人下线 
+3) q=kickuser&roleName=[01]彭秋文
+    踢角色明为xxx的用户下线
+4) q=addgold&roleName=[01]彭秋文&yuanbao=1000&isBind=1
+    添加元宝
+5)q=pay&paynum=201207171602534899&paytouser=xxx&paygold=10&money=1&time=1342512173&flag=27c9a863147324ec009eb004c941338c&serverid=0
+    玩家充值(确认兑换率1:1?)
+6) q=forbidchat&roleName=[01]彭秋文&banTime=1
+    玩家禁言(时间单位分钟,banTime=0解禁)
+7) q=forbidip&banTime=1&banIp=192.168.22.139
+    封禁IP(时间单位分钟,banTime=0解禁)
+8) q=forbidaccount&roleName=[01]百里幻夏&banTime=1
+    封禁帐号(时间单位分钟,banTime=0解禁)
+9)q=sendmail&roleName=[01]苗初霜&title=测试1234&content=测试&attachmentId[1]=410302701&attachmentNum[1]=1&attachmentBind[1]=1&attachmentId[2]=440302701&attachmentNum[2]=1&attachmentBind[2]=1&yuanbao=300&tongbi=100&isBind=3
+                     ---q=sendmail&roleName=[01]百里幻夏&title=测试1234&content=顶顶顶顶顶顶
+    给玩家发送邮件
+10) q=addmoney&roleName=[01]彭秋文&money=1000&isBind=1
+    给玩家发铜币
+11) q=broadcastByAdmin&msg=xxxxxx&msgType
+    管理后台公告
+12) q=addgoldforall&yuanbao=1000&isBind=1
+    全服在线的加元宝
+13) q=onlineplayer
+    获取在线玩家信息
+14) q=additem&roleName=[01]aa&itemId=1000001&cnt=3&strengthen=16&isBind=1
+    赠送一个道具
+15) q=playerdetail&roleName=[01]彭秋文
+    获取玩家基本信息
+16) q=getbillboard&type=1
+    获取排行榜
+17) q=playerbag&roleName=[01]aa
+    获取玩家背包信息
+18) q=playerstore&roleName=[01]aa
+    获取玩家仓库信息
+19) q=playerpet&roleName=[01]aa
+    获取玩家宠物信息
+20) q=playermagicbox&roleName=[01]aa
+    获取玩家开箱子仓库信息
+21) q=shutdeal&packetid=10001
+    关闭某条协议

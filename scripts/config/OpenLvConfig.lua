@@ -1,0 +1,23 @@
+module(...,package.seeall)
+Config={
+[1] = {id=1, moduleName="skill", cname="技能", charLv=1, desc="没有最强的技能，只有最强的连招。做出组合吧！", link="", pic="", newFunc=1, },
+[2] = {id=2, moduleName="handbook", cname="图鉴", charLv=1, desc="寻找心目中的爆灯英雄！", link="", pic="", newFunc=1, },
+[3] = {id=3, moduleName="shop", cname="商店", charLv=1, desc="抽奖容易，攒钻不易。而我就是有钱，任性！", link="", pic="", newFunc=1, },
+[4] = {id=4, moduleName="chapter", cname="战役", charLv=1, desc="且打且珍惜！", link="", pic="", newFunc=1, },
+[5] = {id=5, moduleName="achieve", cname="成就", charLv=1, desc="这里总是提示你有多么帅。", link="", pic="", newFunc=1, },
+[6] = {id=6, moduleName="arena", cname="竞技场", charLv=9, desc="看谁不顺眼，随便虐！", link="oArena", pic="arena", newFunc=1, },
+[7] = {id=7, moduleName="worldBoss", cname="世界BOSS", charLv=30, desc="每天晚上都要暴打大蛇一顿，才能安心睡觉。", link="oBoss", pic="boss", newFunc=1, },
+[8] = {id=8, moduleName="rank", cname="排行榜", charLv=1, desc="这一片排行榜都由你承包了。", link="oRank", pic="rank", newFunc=1, },
+[9] = {id=9, moduleName="trial", cname="战役", charLv=13, desc="大神总是在这里刷存在感。", link="oTrial", pic="adverture", newFunc=1, },
+[10] = {id=10, moduleName="partner", cname="宿命", charLv=28, desc="宿命的召唤，小伙伴们没有最强，只有更强！", link="", pic="", newFunc=1, },
+[11] = {id=11, moduleName="treasure", cname="夺宝", charLv=30, desc="听说这里专出煤老板。", link="oTreasure", pic="treasure", newFunc=1, },
+[12] = {id=12, moduleName="expedition", cname="世界巡回赛", charLv=27, desc="组团旅游啦，要多培养板凳队员，么么哒。", link="oExpedition", pic="expedition", newFunc=1, },
+[13] = {id=13, moduleName="weapon", cname="神兵", charLv=27, desc="传说中的神兵已经出现，有木有感受到亮瞎眼的光芒？", link="oWeaponExp", pic="sb", newFunc=1, },
+[14] = {id=14, moduleName="guild", cname="家族", charLv=25, desc="家族最好找适合自己的，但是活跃一定要好。", link="oGuild", pic="guild", newFunc=1, },
+[15] = {id=15, moduleName="orochi", cname="大蛇八杰", charLv=24, desc="群P大蛇八杰，想想还有点小激动呢！", link="oOrochi", pic="orochi", newFunc=1, },
+[16] = {id=16, moduleName="train", cname="培养", charLv=26, desc="快来培养属于自己的英雄！", link="oTrain", pic="", newFunc=0, },
+[17] = {id=17, moduleName="breakthrough", cname="突破", charLv=5, desc="第一次的突破可是非常珍贵的哦！", link="oBreakthrough", pic="", newFunc=0, },
+[18] = {id=18, moduleName="gift", cname="天赋", charLv=16, desc="因为天赋，所以珍贵！", link="oGift", pic="", newFunc=0, },
+[19] = {id=19, moduleName="wipe", cname="扫荡", charLv=10, desc="开启扫荡功能", link="", pic="", newFunc=0, },
+[20] = {id=20, moduleName="peak", cname="巅峰竞技场", charLv=35, desc="看谁不顺眼，随便虐！", link="oPeak", pic="arena", newFunc=1, },
+}

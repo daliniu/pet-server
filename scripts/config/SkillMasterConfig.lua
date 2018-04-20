@@ -1,0 +1,23 @@
+module(...,package.seeall)
+Config={
+[1] = {lv=1, maxHp=120, atk=30, finalAtk=30, def=15, finalDef=15, initRage=2, },
+[2] = {lv=2, maxHp=240, atk=60, finalAtk=60, def=30, finalDef=30, initRage=4, },
+[3] = {lv=3, maxHp=360, atk=90, finalAtk=90, def=45, finalDef=45, initRage=6, },
+[4] = {lv=4, maxHp=480, atk=120, finalAtk=120, def=60, finalDef=60, initRage=8, },
+[5] = {lv=5, maxHp=600, atk=150, finalAtk=150, def=75, finalDef=75, initRage=10, },
+[6] = {lv=6, maxHp=720, atk=180, finalAtk=180, def=90, finalDef=90, initRage=12, },
+[7] = {lv=7, maxHp=840, atk=210, finalAtk=210, def=105, finalDef=105, initRage=14, },
+[8] = {lv=8, maxHp=960, atk=240, finalAtk=240, def=120, finalDef=120, initRage=16, },
+[9] = {lv=9, maxHp=1080, atk=270, finalAtk=270, def=135, finalDef=135, initRage=18, },
+[10] = {lv=10, maxHp=1200, atk=300, finalAtk=300, def=150, finalDef=150, initRage=20, },
+[11] = {lv=11, maxHp=1320, atk=330, finalAtk=330, def=165, finalDef=165, initRage=22, },
+[12] = {lv=12, maxHp=1440, atk=360, finalAtk=360, def=180, finalDef=180, initRage=24, },
+[13] = {lv=13, maxHp=1560, atk=390, finalAtk=390, def=195, finalDef=195, initRage=26, },
+[14] = {lv=14, maxHp=1680, atk=420, finalAtk=420, def=210, finalDef=210, initRage=28, },
+[15] = {lv=15, maxHp=1800, atk=450, finalAtk=450, def=225, finalDef=225, initRage=30, },
+[16] = {lv=16, maxHp=1920, atk=480, finalAtk=480, def=240, finalDef=240, initRage=32, },
+[17] = {lv=17, maxHp=2040, atk=510, finalAtk=510, def=255, finalDef=255, initRage=34, },
+[18] = {lv=18, maxHp=2160, atk=540, finalAtk=540, def=270, finalDef=270, initRage=36, },
+[19] = {lv=19, maxHp=2280, atk=570, finalAtk=570, def=285, finalDef=285, initRage=38, },
+[20] = {lv=20, maxHp=2400, atk=600, finalAtk=600, def=300, finalDef=300, initRage=40, },
+}
